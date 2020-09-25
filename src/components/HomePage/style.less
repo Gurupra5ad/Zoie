@@ -1,0 +1,124 @@
+.home-page {
+  overflow: hidden;
+  height: 100vh;
+  background-color:#bac964;
+
+  .logo-div{
+    background: linear-gradient(75deg,#436f8a 60%,#438a5e);
+  }
+
+  .logo {
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    height:100px;
+    width:200px;
+
+  }
+
+
+  .flex_wrapper {
+    display: flex;
+
+    .left {
+      width: 50vw;
+      padding: 1.5% 2%;
+      margin-top: 5vh;
+
+      .text_wrap {
+        padding-left: 5%;
+
+        h1 {
+          font-weight: 700;
+          font-size: 5.5rem;
+          height: 10vh;
+        }
+
+        h2 {
+          font-weight: 400;
+          font-size: 4rem;
+          // letter-spacing: 4px;
+          line-height: 4vh;
+          height: 5vh;
+        }
+
+        h3 {
+          margin-top: 3vh;
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+
+
+        .button {
+          margin-top: 10vh;
+          border-bottom: 4px solid #374AAC;
+          width: 30%;
+          height: 55px;
+          transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+
+          h2 {
+            font-size: 2.3rem;
+
+          }
+
+          &:hover {
+            cursor: pointer;
+            background-color: #374AAC;
+            transform: translateY(-2px);
+            width: 32%;
+            padding-top: 10px;
+            padding-left: 2px;
+
+            h2 {
+              color: white;
+            }
+          }
+        }
+      }
+
+      .tag {
+        margin-top: 7.5vw;
+        margin-bottom: 7.5vw;
+        color: white;
+        height: 3.5vh;
+        width: 16vw;
+        font-size: 1.5rem;
+        background-color: #374AAC;
+        font-weight: 6s00;
+      }
+
+    }
+
+    .right {
+      width: 50vw;
+      background-color: #374AAC;
+      height: 100vh;
+
+      .strawberry {
+        position: absolute;
+        top: 30%;
+        right: 9%;
+        height: 40%;
+        transform: rotate(10deg);
+      }
+
+      .rightbar {
+        position: absolute;
+        top: 5%;
+        right: 1%;
+        height: 90%;
+      }
+    }
+
+    .left {
+      width: 50vw;
+      background-color:#bac964;
+    }
+  }
+
+
+}
+
+.home-page::-webkit-scrollbar {
+  display: none;
+}

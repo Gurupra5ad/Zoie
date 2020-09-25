@@ -1,0 +1,87 @@
+.garden {
+  height: 100vh;
+  overflow: hidden;
+  
+  
+
+  .flex_wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .side_div {
+    width: 47.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .side_wrapper {
+      margin-top: 16px;
+      width: 40vw;
+      
+
+      .c_wrapper {
+        width: 100%;
+        height: 55vh;
+        border: 2.5px solid #fff;
+        border-radius: 12.5px;
+        background-image: url("https://static.planetminecraft.com/files/resource_media/screenshot/1144/2011-11-06_055125_774766.jpg");
+        box-shadow: 0 8px 7px -8px black;
+      }
+    }
+
+    .side_row {
+      margin-top: 2vh;
+      display: flex;
+      justify-content: space-between;
+      
+
+      .slider_text {
+        width: 33.5%;
+        
+      }
+
+      .ceres_text {
+        width: 64%
+      }
+
+    }
+  }
+
+  .right_div {
+    display: flex;
+    flex-direction: column;
+    width: 52.5vw;
+
+    .right_wrapper {
+      padding: 18px 32px;
+      background-color:#bac964;
+
+
+
+      .location {
+        font-weight: 500;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        
+      }
+    }
+  }
+
+
+  .bg {
+    position: absolute;
+    z-index: -100;
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-width: auto;
+    background-color:#bac964;
+
+
+  }
+}
