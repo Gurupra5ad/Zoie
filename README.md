@@ -4,7 +4,7 @@
 Install the dependencies
 ```bash
 # Install Yarn:
-$ git clone https://github.com/acmucsd/static-template
+$ git clone
 $ cd static-template
 $ curl -o- -L https://yarnpkg.com/install.sh | bash
 # Install the package dependencies
